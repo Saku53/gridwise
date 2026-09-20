@@ -64,10 +64,10 @@ Required environment variables:
 
 ## Live deployment
 
-Base URL: `https://<your-service-name>.onrender.com`
+Base URL: `https://gridwise-anye.onrender.com`
 
 ```bash
-curl https://<your-service-name>.onrender.com/health
+curl https://gridwise-anye.onrender.com/health
 ```
 
 Deployed as a Docker web service on Render, reading `GEMINI_API_KEY` from
