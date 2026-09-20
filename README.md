@@ -59,7 +59,7 @@ Required environment variables:
 | Variable | Required | Default | Purpose |
 |---|---|---|---|
 | `GEMINI_API_KEY` | yes | — | Google AI Studio API key |
-| `GEMINI_MODEL` | no | `gemini-2.0-flash` | Gemini model name |
+| `GEMINI_MODEL` | no | `gemini-3.6-flash` | Gemini model name |
 | `PORT` | no | `8000` | Port the server binds to |
 
 ## Live deployment
