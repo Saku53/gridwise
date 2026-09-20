@@ -26,7 +26,7 @@ The LLM never sees demand/solar/tariff/battery values, and the optimizer never
 sees a natural-language string — the two are decoupled by the guardrail layer.
 
 - **Model / provider:** Google Gemini via `google-genai`, model name from
-  `GEMINI_MODEL` (default `gemini-2.0-flash`).
+  `GEMINI_MODEL` (default `gemini-3.6-flash`).
 - **LLM's role:** convert `operator_notes` into structured directives only.
   It performs no scheduling and no arithmetic on the scenario.
 - **Guardrails:** `app/guardrails.py` — enforces the allowed directive-type
@@ -43,7 +43,7 @@ sees a natural-language string — the two are decoupled by the guardrail layer.
 ## Local quickstart (clean environment)
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Saku53/gridwise>
 cd gridwise
 python -m venv venv && source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
